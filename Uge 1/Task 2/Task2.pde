@@ -1,0 +1,10 @@
+String teachername = "Tess Løvgreen";
+int Days = 365;
+String capitalDK = "København";
+boolean nameNicklas = true;
+int rectArea = 60*24;
+float circleRadius = 22.12;
+String greeting = "Hej, jeg heddder "+teachername;
+boolean datateknikker = false;
+float numberPulsNumber = 2.2 + 33;
+char symbol = 'S';
