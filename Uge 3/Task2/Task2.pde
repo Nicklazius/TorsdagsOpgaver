@@ -7,7 +7,7 @@ void setup() {
     println("I don't clap my hands");
   }
   sum(8,9);
-  println(greetings().toUpperCase());
+  println(greeting().toUpperCase());
   upperCase();
 }
 
@@ -21,9 +21,9 @@ int sum(int a, int b) {
   return sum;
 }
 
-String greetings() {
-  String greetings = "Hey I'm lord Potato the second";
-  return greetings;
+String greeting() {
+  String greeting = "Hey I'm lord Potato the second";
+  return greeting;
 }
 
 boolean upperCase() {

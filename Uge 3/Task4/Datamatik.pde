@@ -3,7 +3,7 @@ Student student1;
 Student student2;
 
 void setup() {
-  teacher = new Teacher("Tess", 44, true);
+  teacher = new Teacher("Tess", 39, true);
   student1 = new Student("Nicklas", 34, false, "Dependable Octupus");
   student2 = new Student("Babak", 29, false, "Dependable Octupus");
 
