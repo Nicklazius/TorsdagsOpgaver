@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Room bathRoom = new Room("bathRoom",1,0);
-        Room bedRoom = new Room("bedRoom",2,2);
-        Room kitchen = new Room("kitchen",1,1);
+        Room bathRoom = new Room("bathRoom", 1, 0);
+        Room bedRoom = new Room("bedRoom", 2, 2);
+        Room kitchen = new Room("kitchen", 1, 1);
 
         ArrayList<Room> roomList = new ArrayList<>();
 
@@ -14,7 +14,7 @@ public class Main {
         roomList.add(bedRoom);
         roomList.add(kitchen);
 
-        Building house = new Building(roomList,1);
+        Building house = new Building(roomList, 1);
 
 
         for (Room room : house.getRooms()) {
@@ -36,25 +36,25 @@ public class Main {
 
     }
 
-    public static int countLampsInBuilding(Building building){
+    public static int countLampsInBuilding(Building building) {
         int totalLamps = 0;
 
-        for(Room room: building.getRooms()){
+        for (Room room : building.getRooms()) {
             totalLamps += room.getNumberOfLamps();
         }
         return totalLamps;
     }
 
-    public static int countWindowsInBuilding(Building building){
+    public static int countWindowsInBuilding(Building building) {
         int totalWindows = 0;
 
-        for(Room room: building.getRooms()){
+        for (Room room : building.getRooms()) {
             totalWindows += room.getNumberOfWindows();
         }
         return totalWindows;
     }
 
-    public static int countRoomsInBuilding(Building building){
+    public static int countRoomsInBuilding(Building building) {
         return building.getRooms().size();
     }
 

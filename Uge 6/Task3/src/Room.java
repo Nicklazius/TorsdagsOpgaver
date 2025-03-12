@@ -15,23 +15,23 @@ public class Room {
         return numberOfLamps;
     }
 
-    public void setNumberOfLamps(int numberOfLamps){
+    public void setNumberOfLamps(int numberOfLamps) {
         this.numberOfLamps = numberOfLamps;
     }
 
-    public int getNumberOfWindows(){
+    public int getNumberOfWindows() {
         return numberOfWindows;
     }
 
-    public void setNumberOfWindows(int numberOfWindows){
+    public void setNumberOfWindows(int numberOfWindows) {
         this.numberOfWindows = numberOfWindows;
     }
 
-    public String getRoomName(){
+    public String getRoomName() {
         return roomName;
     }
 
-    public void setRoomName(String roomName){
+    public void setRoomName(String roomName) {
         this.roomName = roomName;
     }
 
